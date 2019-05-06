@@ -4,7 +4,7 @@
     "build": "fable build.fsx --run",
     "publish": "fable build.fsx --run publish",
     "pretest": "fable-splitter test -o build --commonjs",
-    "test": "mocha build -w",
+    "test": "mocha build",
     "test:watch": "npm-run-all --parallel watch:*",
     "watch:pretest": "fable-splitter test -o build --commonjs -w",
     "watch:test": "mocha build -w"
