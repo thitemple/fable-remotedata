@@ -1,4 +1,6 @@
-module rec RemoteData
+namespace Fable
+
+module rec RemoteData =
 
     type RemoteData<'e, 'a> =
         | NotAsked
@@ -124,5 +126,3 @@ module rec RemoteData
         | NotAsked -> true
 
         | _ -> false
-
-
