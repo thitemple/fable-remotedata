@@ -2,7 +2,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Fable.RemoteData</PackageId>
-    <Version>0.1.0</Version>
+    <Version>1.0.1</Version>
+    <PackageVersion>1.0.1</PackageVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
