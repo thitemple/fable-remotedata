@@ -1,4 +1,4 @@
-# Fable.RemoteData [![Build Status](https://travis-ci.org/thitemple/fable-remotedata.svg?branch=master)](https://travis-ci.org/thitemple/fable-remotedata)
+# Fable.RemoteData [![Build Status](https://travis-ci.org/thitemple/fable-remotedata.svg?branch=master)](https://travis-ci.org/thitemple/fable-remotedata) ![Nuget](https://img.shields.io/nuget/v/Fable.RemoteData.svg)
 
 F# implementation for Fable of [Elm's RemoteData package](https://github.com/krisajenkins/remotedata).
 
