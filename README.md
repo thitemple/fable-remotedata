@@ -6,7 +6,7 @@ F# implementation for Fable of [Elm's RemoteData package](https://github.com/kri
 
 Here's a sample using Elmish with Fetch
 
-```
+```fs
 open Fable.RemoteData
 open Fetch
 
