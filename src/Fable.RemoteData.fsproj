@@ -2,12 +2,21 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Fable.RemoteData</PackageId>
-    <Version>1.0.1</Version>
-    <PackageVersion>1.0.1</PackageVersion>
+    <Version>1.0.2</Version>
+    <PackageVersion>1.0.2</PackageVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Description>A library for helping Fable projects manage remote data.</Description>
+    <PackageProjectUrl>https://github.com/thitemple/fable-remotedata</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/thitemple/fable-remotedata.git</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/thitemple/fable-remotedata/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>fsharp;fable;http</PackageTags>
+    <Authors>Thiago Temple</Authors>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="RemoteData.fs" />
+  </ItemGroup>
+  <ItemGroup>
+      <Content Include="*.fsproj; **\*.fs" PackagePath="fable\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Fable.Core" Version="3.0.0" />
